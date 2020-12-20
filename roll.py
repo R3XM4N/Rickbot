@@ -13,7 +13,7 @@ async def on_message(message):
     if any(x in message.content for x in rick):
         user = message.author
         file = open("lyricks.txt", "r")
-        role = message.guild.get_role(789905827149643836)
+        role = message.guild.get_role(role ID) #add id of the role instead of role ID
         await user.add_roles(role)
         while True:
             line = file.readline()
@@ -29,4 +29,4 @@ async def on_ready():
     print("bot is ready")
 
 
-client.run('Nzg5ODU2MDk5Mjg0NDE4NTYw.X94I0A.84b6sRnn91_SVY7oQ9ZtSiCL_RA')
+client.run('discord token') #put your discord token here
