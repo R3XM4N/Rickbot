@@ -1,2 +1,2 @@
 # Rickbot
-This bot sends lyrics of the rick astleys never gonna give you up to the user every 2 seconds and gives them role(rick rolled)
+This is a code for a discord bot that sends the lyrics of the song Never gonna give you up by Rick Astley and gives them a role "rickrolled"
